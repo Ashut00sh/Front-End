@@ -1,12 +1,12 @@
 export class User {
-    Address: String | undefined;
-    Email: String | undefined;
-    Gender: String | undefined;
-    Password: String | undefined;
-    Phone: number | undefined;
-    Pincode: number | undefined;
-    UserId: number | undefined;
-    UserName: String | undefined;
+    address: String | undefined;
+    email: String | undefined;
+    gender: String | undefined;
+    password: String | undefined;
+    mobileNo: number | undefined;
+    pincode: number | undefined;
+    userId: number | undefined;
+    userName: String | undefined;
     
    
 }
