@@ -2,11 +2,12 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width:100%;
     height: 40px;
     background-color: rgb(7, 58, 87);
     text-align: center;
     color: white;
+
 }
