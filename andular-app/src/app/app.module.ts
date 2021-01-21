@@ -10,7 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { UploadPicComponent } from './upload-pic/upload-pic.component';
 import { ViewProfileComponent } from './view-profile/view-profile.component';
 import { FormsModule, NgModel } from '@angular/forms';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -25,7 +25,7 @@ import { HttpClient } from '@angular/common/http';
   ],
   imports: [
     BrowserModule,
-    HttpClient,
+    HttpClientModule,
     AppRoutingModule,
     FormsModule
   ],
