@@ -1,0 +1,8 @@
+<p>Fill up registeration form!</p>
+<form (ngSubmit)="register()">
+    Enter Name<input type="text" name="t1" [(ngModel)]=customer.name/><br/>
+    Enter DoB<input type="date" name="t2" [(ngModel)]=customer.dateofbirth/><br />
+    Enter eamil address <input type="text" name="t3" [(ngModel)]=customer.email/><br />
+    Enter Password<input type="password" name="t1" [(ngModel)]=customer.password/><br />
+    <button type="submit" >Register</button>
+</form>
