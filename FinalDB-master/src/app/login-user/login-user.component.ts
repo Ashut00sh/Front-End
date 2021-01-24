@@ -27,7 +27,9 @@ export class LoginUserComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  goToUserLogin(){
+    this.router.navigate(['/login']);
+  }
   onSubmit(){
 
    /* this.userService.getUserByEmailId(this.emailId).subscribe(data=>{
